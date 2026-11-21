@@ -8,7 +8,8 @@
 ![Windows 11](https://img.shields.io/badge/Platform-Windows%2011%20(x64)-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
 ![Release](https://img.shields.io/badge/Release-v1.0.0-2563EB?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Languages-6%20(EN%20%7C%20UK%20%7C%20RU%20%7C%20ES%20%7C%20FR%20%7C%20IT)-0EA5E9?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Freeware-10B981?style=for-the-badge)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-69%2F70%20Clean-10B981?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/6e5dc7fdd9ff93d764bd6b16a9ca5914b7e81aa04414826d37756d352e99c4f3/detection)
+![License](https://img.shields.io/badge/License-Freeware-6366F1?style=for-the-badge)
 
 [**English**](#-english) • [**Українська**](#-українська) • [**Download v1.0.0**](../../releases/latest)
 
@@ -43,12 +44,16 @@
 4. Press **`Win + Shift + S`** to take a screenshot and enjoy SmartSnap!
 
 > [!NOTE]
-> ### 🛡️ Windows SmartScreen Notice
+> ### 🛡️ Windows SmartScreen & VirusTotal
 > Because **SmartSnap** is an independent freeware app without a paid commercial code-signing certificate, Windows Defender SmartScreen may show a **"Windows protected your PC"** warning when running `SmartSnap_Setup.exe` for the first time.
 >
 > To proceed with installation:
 > 1. Click **More info** (*Додатково*).
 > 2. Click **Run anyway** (*Виконати в будь-якому разі*).
+>
+> **VirusTotal Report (`SmartSnap_Setup.exe`):** [View full scan (69/70 clean)](https://www.virustotal.com/gui/file/6e5dc7fdd9ff93d764bd6b16a9ca5914b7e81aa04414826d37756d352e99c4f3/detection)  
+> **SHA-256:** `6e5dc7fdd9ff93d764bd6b16a9ca5914b7e81aa04414826d37756d352e99c4f3`  
+> *(1/70 is a known `DeepInstinct` static ML false positive on unsigned Inno Setup installers; Microsoft Defender, Bitdefender, ESET, Malwarebytes, Avast, and Kaspersky all report clean.)*
 
 ### 🖱️ System Tray Menu
 
@@ -86,12 +91,16 @@ Right-click the SmartSnap icon in the Windows system tray to access:
 4. Натисніть **`Win + Shift + S`** і користуйтеся SmartSnap!
 
 > [!NOTE]
-> ### 🛡️ Примітка щодо Windows SmartScreen
+> ### 🛡️ Примітка щодо Windows SmartScreen та VirusTotal
 > Оскільки **SmartSnap** — це незалежна безкоштовна утиліта без платного комерційного цифрового підпису, при першому запуску `SmartSnap_Setup.exe` Windows Defender SmartScreen може показати вікно **«Система Windows захистила ваш ПК»**.
 >
 > Щоб продовжити встановлення:
 > 1. Натисніть **«Додатково»** (*More info*).
 > 2. Натисніть **«Виконати в будь-якому разі»** (*Run anyway*).
+>
+> **Звіт VirusTotal (`SmartSnap_Setup.exe`):** [Відкрити перевірку (69/70 чисто)](https://www.virustotal.com/gui/file/6e5dc7fdd9ff93d764bd6b16a9ca5914b7e81aa04414826d37756d352e99c4f3/detection)  
+> **SHA-256:** `6e5dc7fdd9ff93d764bd6b16a9ca5914b7e81aa04414826d37756d352e99c4f3`  
+> *(Єдине спрацювання 1/70 — типовий ML false positive від `DeepInstinct` на непідписані інсталятори Inno Setup; Microsoft Defender, Bitdefender, ESET, Malwarebytes, Avast і Kaspersky — чисто.)*
 
 ### 🖱️ Контекстне меню в треї
 
