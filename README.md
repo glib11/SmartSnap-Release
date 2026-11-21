@@ -12,6 +12,10 @@
 
 [**English**](#-english) • [**Українська**](#-українська) • [**Download v1.0.0**](../../releases/latest)
 
+<br>
+
+![SmartSnap Demo](demo.gif)
+
 </div>
 
 ---
